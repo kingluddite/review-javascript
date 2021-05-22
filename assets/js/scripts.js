@@ -17,3 +17,18 @@
     greet('Phil');
     greet('Mark');
     greet('Victor');
+
+
+    // example of method
+    // open in console.to see results
+    const greetings = {
+      morning : function(name) {
+        console.log("Good Morning " + name)
+      },
+      day : function(name){
+        console.log("Good Afternoon " + name)
+      },
+      night: function(name){
+        console.log("Good Evening " + name)
+      },
+    }
